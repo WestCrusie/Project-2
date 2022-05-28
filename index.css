@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+}
+
+.main-menu {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.h-menu {
+    display:block;
+    list-style: none;
+}
+
+.h-menu a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.p-menu {
+    display:block ;
+    list-style: none;
+}
+
+.p-menu a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.container {
+    display: inline-block;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.nav-header {
+    padding: 5px;
+    padding-right: 0;
+    padding-right: 50px;
+}
+
+.contImg {
+    width: 20%;
+}
+.menuImg {
+    width: 2%;
+}
+.image-content1 {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #000000;
+    background-image: url(./img/Fall-2021-Stationery-NL-02_1920x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out;
+}
+
+.image-content1:hover {
+    transform: scale(1.01);
+}
+
+.image-content2 {
+    display: block;
+    width: 100%;
+}
+
+.cont-image1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000000;
+    background-image: url(./img/Flora-Salad-Plate-Flora-Towel-1x1_1920x_46f7dcf9-0933-4dc7-b6d2-382f5c6aa426_1920x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out;
+}
+
+.cont-image1:hover {
+    transform: scale(1.01);
+}
+
+.cont-image2 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000000;
+    background-image: url(./img/Creative-Spaces-Lifestyle-4_1920x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out;
+}
+
+.cont-image2:hover {
+    transform: scale(1.01);
+}
+
+.first-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.contSp2{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: .8;
+    opacity: 0.5;
+}
+.contSpB a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+.contSpB,.contSpA {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: right 40ex;;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: .8;
+    opacity: 0.5;
+} 
+
+.contSpB h1 {
+    margin: 20%;
+}
+
+.contSpA h1 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contSpA a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 70px;
+}
+
+.swiper {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    height: 20px;
+    width: 20px;
+    background: white;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    background: white;
+    opacity: 0;
+}
+
+.swiper-scrollbar-drag {
+    background: red;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+    opacity: 0.5;
+}
+
+.swiper-slide {
+    display: block;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide-0 {
+    background-image: url(./img/TAKENAKA-POKETO-BENTO-020_1920x.jpg);
+}
+
+#slide-1 {
+    background-image: url(./img/poketo-pouches-notebooks.jpg);
+}
+
+#slide-2 {
+    background-image: url(./img/everyday-desk-pad-web-banner_1920x.jpg);
+}
+
+#slide-3 {
+    background-image: url(./img/towel-webbanner_1920x.jpg);
+}
+
+.swiper-slide h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pslide {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.Btn {
+    padding: 20px;
+    border: 20px;
+    cursor: pointer;
+}
+
+.s-head1 {
+    margin: 90px;
+    padding-top: 90px;
+}
+.s-head1 .Btn{margin-top: 90px;}
+.s-head1 .pslide{margin-top: 20px;}
+
+.s-head2 {
+    text-align: center;
+    padding-top: 90px;
+}
+.s-head2 .Btn{margin-top: 90px;}
+.s-head2 .pslide{margin-top: 20px; text-align: center;}
+
+.s-head3 {
+    margin: 100px;
+    padding-top: 20px;
+}
+.s-head3 .Btn{margin-top: 90px;}
+.s-head3 .pslide{margin-top: 20px;}
+
+.s-head4 {
+    margin: 100px;
+    padding-top: 20px;
+}
+.s-head4 .Btn{margin-top: 90px;}
+.s-head4 .pslide{margin-top: 20px;}
+
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+.grids {
+    width: 100%;
+    position: relative;
+}
+
+.grids-bg {
+    height: 250px;
+    background-size: cover;
+}
+
+.grids-top1 {
+    background-image: url(./img/Poketo-Wristlet-Lines_480x.jpg);
+}
+
+.grids-top2 {
+    background-image: url(./img/PocketNotebook-Checkers_480x.jpg);
+}
+
+.grids-top3 {
+    background-image: url(./img/Poketo-Twist-Pens-001_480x.jpg);
+}
+
+.grids-top4 {
+    background-image: url(./img/SheerSocksMultiStripes_480x.jpg);
+}
+
+.grids-top5 {
+    background-image: url(./img/Bamboo-Dinner-Plate-Planes-02_480x.jpg);
+}
+
+.grids-top6 {
+    background-image: url(./img/Color-Block-Mechanical-Pencils-001_480x.jpg);
+}
+
+.grids-top7 {
+    background-image: url(./img/Loopy-Notepad_480x.jpg);
+}
+
+.grids-top8 {
+    background-image: url(./img/Gift-card_c67a6f5f-488a-4391-8c78-933908445644_480x.jpg);
+}
+
+
+.grid-overlay {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.overlay-content {
+    width: 100%;
+    margin: 0% auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.overlay-content a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.overlay-content img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.overlay {
+    text-align: center;
+}
+
+.image-contentA {
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/poketo-blog_1200x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-content {
+    display: block;
+    width: 100%;
+}
+
+.cont-imageB {
+    width: 100%;
+    height: 300px;
+    background-image: url(./img/nature_960x1080_crop_center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out;
+    border: 1px solid #000000;
+}
+
+.cont-imageB:hover {
+    transform: scale(1.01);
+}
+
+.cont-imageC {
+    width: 100%;
+    height: 300px;
+    background-image: url(./img/IMG_8330_960x1080_crop_center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out;
+    border: 1px solid #000000;
+}
+
+.cont-imageC:hover {
+    transform: scale(1.01);
+}
+
+.second-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.contSp {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 12;
+    opacity: 0.5;
+} 
+.contSp a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.contSpp{ margin-bottom: 5px;}
+
+.contSp h1 {
+    margin: 60px;
+}
+
+.contSp1 a {
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+}
+.contSp1 .Btn{margin-left: 200px; margin-top: 60px;}
+
+.contSp1 h1 {
+  
+    margin-left: 160px;
+    padding-left: 20px;
+    padding-top: 150px;
+    font-size: 50px;
+}
+.footer-header{
+    background-color:#5e5b5b;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.footer-left{border: 1px solid #868585;}
+.footer-left-content h4{color: #cecccc;}
+.social-site a{text-decoration: none;}
+
+.footerImg{
+    width: 5%;
+    background-color: white;
+    margin: 10px;
+}
+.footer-left-content{
+    padding-top: 190px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    padding-bottom: 300px;
+}
+.footer-content{
+    color: #cecccc;
+    padding-left: 150px;
+}
+.footer-content h4{
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.footer-content p{
+    padding-top: 20px;
+    padding-right: 150px;
+}
+.footer-p{
+    color: #cecccc;
+    padding-top: 300px;
+    padding-left: 150px;
+    padding-bottom: 80px;
+}
+.footer-right-content{
+    padding-top: 50px;
+    color: #cecccc;
+}
+.footer-right-content h4{
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.info{
+    color: white;
+    font-size: 50px;
+}
+.footer-right-content{
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.footer-right-content p{padding-top: 20px;}
+.footer-right-content a{text-decoration: none;}
+
+.footer-content1{
+    padding-left: 150px;
+}
+.footer-content1 h4{
+    color: #cecccc;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+.footer-content1 ul{
+    text-decoration: none;
+    color: #cecccc;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-content1 li{
+    list-style: none;
+    color: #cecccc;
+    padding: 5px;
+}
+.footer-content1 a{text-decoration: none; color: #cecccc;}
+.footer-content1 p{
+    padding-top: 30px;
+    color: #cecccc;
+}
